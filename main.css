@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	text-align: center;
+}
+
+div {
+	outline-style: dotted;
+	outline-width: thin;
+	display: inline-block;
+}
+
+#container {
+	width: 600px;
+	height: 600px;
+	margin-top: 20px;
+	border: 0;
+	padding: 0;
+}
+
+.pixel {
+	height: 60px;
+	width: 60px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-color: #ffe5ff;
+    
+  /* Remove bottom spacing */
+  vertical-align: top;
+}
